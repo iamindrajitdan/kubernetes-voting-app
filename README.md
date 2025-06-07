@@ -278,6 +278,14 @@ Query the MongoDB database directly to observe the updated vote data. In the ter
 kubectl exec -it mongo-0 -- mongo langdb --eval "db.languages.find().pretty()"
 ```
 
+### If you are running locally using minikube
+use minikube service commands to access the frontend and api service
+
+
+
+
+
+
 ## **Summary**
 
 In this Project, you learnt how to deploy a cloud native application into EKS. Once deployed and up and running, you used your local workstation's browser to test out the application. You later confirmed that your activity within the application generated data which was captured and recorded successfully within the MongoDB ReplicaSet back end within the cluster.
